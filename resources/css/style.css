@@ -23,3 +23,36 @@ header {
 .nav {
   position: absolute; right:40px;
 }
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: : 12px;
+}
+
+.lead-story {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0;
+  width: 630px;
+}
+.image-content{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  display: block;
+}
