@@ -13,4 +13,13 @@ header {
 }
 .logo {
   color: mediumaquamarine;
+  padding-left: 30px;
+}
+ .nav a {
+  justify-content: flex-end;
+  text-decoration: underline;
+  padding-left: 40px;
+}
+.nav {
+  position: absolute; right:40px;
 }
