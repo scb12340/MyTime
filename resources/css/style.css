@@ -21,6 +21,8 @@
   justify-content: flex-end;
   text-decoration: underline;
   padding-left: 40px;
+  position: fixed;
+  z-index: 5px;
 }
 .nav {
   position: absolute; right:40px;
@@ -157,14 +159,15 @@ div.cat {
   display: flex;
 }
 footer.container {
-  display: flex;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: verdana;
   font-size: 12px;
   height: 325px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 h1#closing {
   font-family: georgia;
@@ -174,12 +177,22 @@ h1#closing {
   padding-right: 25px;
   border-right: 2px solid white;
 }
+footer div {
+  display: inline-flex;
+}
 #nav a {
   justify-content: center;
   text-decoration: underline;
   padding-left: 25px;
+  align-items: center;
+  display: inline-flex;
+  height: 35px;
 }
 footer p {
   justify-content: center;
   align-items: center;
+}
+#copy {
+  font-size: 12px;
+  font-family: verdana;
 }
