@@ -21,8 +21,6 @@
   justify-content: flex-end;
   text-decoration: underline;
   padding-left: 40px;
-  position: fixed;
-  z-index: 5px;
 }
 .nav {
   position: absolute; right:40px;
